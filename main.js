@@ -15,7 +15,7 @@ const config = {
       y: 0,
       width: 390,
       height: 744,
-      debug: false,
+      debug: true,
       gravity: {
         y: 700
       }
