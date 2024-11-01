@@ -40,6 +40,7 @@ export default class myTest extends Phaser.Scene {
             lastInteraction: Date.now()
         }
         LocalData.default(newGochi);
+        Game.scene.start('GochiScene', { mode: "active" });
     }
 
 }
